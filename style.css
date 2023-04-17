@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    margin-top: 2%;
+}
+.flex {
+    display: flex;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+nav {
+    justify-content: space-between;
+    flex-grow: .2;
+}
+main {
+    display: flex;
+    margin-top: 80px;
+}
+.div5 {
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: Evelynn;
+    font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+}
+.btn {
+    background-color: transparent;
+    border: none;
+}
+.btn1 {
+    font-family: Camille;
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+.text1 {
+    color: #398495;
+    font-family: Evelynn;
+font-weight: 400;
+font-size: 28px;
+line-height: 36px;
+}
+.text3 {
+    font-family: monospace;
+font-weight: 400;
+font-size: 72px;
+line-height: 72px;
+}
+.bibta {
+gap: 15px;
+}
+.content-btw {
+    justify-content: space-between;
+}
+
+p {
+    font-family: Camille;
+    font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 32px;
+}
+.direction-column {
+    flex-direction: column;
+}
+.content-center {
+    justify-content: center;
+    flex-grow: .5;
+}
+.buttons {
+    flex-grow: .15;
+    justify-content: space-between;
+}
+.links1 {
+    justify-content: space-between;
+    gap: 10px;    
+}
+.fotki {
+    display: flex;
+}
+.absolute {
+    position: absolute;
+}
+.rec1 {
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+.rec8 {
+    z-index: -1;
+    top: 0;
+    left: 63%;
+    transform: translate(-50%);
+}
+.rec9 {
+    z-index: -1;
+    top: 40px;
+    right: 2%;
+    transform: translate(2%);
+}
+.rec2 {
+    z-index: -1;
+    left: 55%;
+    transform: translate(-50%);
+}
+.rec7 {
+    z-index: -1;
+    top: 434px;
+    left: 23%;
+    transform: translate(-50%);
+}
+.rec11 {
+    z-index: -1;
+    top: 670px;
+    right: 25%;
+    transform: translate(50%);
+}
+.btn1 {
+    background-color: #3BB372;
+    clip-path: polygon(0 1%, 72% 0, 100% 100%, 0% 100%);
+
+    color: white;
+    margin: -10px -40px -10px -10px;
+    padding: 10px 40px 10px 10px;
+    border-radius: 5px;
+    font-family: Evelynn;
+    font-style: normal;
+font-weight: 200;
+font-size: 20px;
+line-height: 6px;
+}
+.btn2 {
+    color: #1F1F1F;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 37% 100%);
+    margin: -10px -10px -10px -40px;
+    padding: 10px 10px 10px 40px;
+    border-radius: 5px;
+    border: 3px solid;
+    font-family: Evelynn;
+    font-style: normal;
+font-weight: 200;
+font-size: 20px;
+line-height: 6px;
+}
+.btn6 { 
+    color: white;
+    clip-path: polygon(32% 0, 100% 0, 100% 100%, 0 100%);
+    background-color: #3BB372;
+    border-radius: 5px;
+    margin: -10px -10px -10px -30px;
+    padding: 10px 10px 10px 30px;
+    font-family: Evelynn;
+    font-style: normal;
+font-weight: 200;
+font-size: 20px;
+line-height: 6px;
+}
+
+
+@font-face {
+    font-family: Evelynn;
+    src: url(nawwor/PTSansNarrow-Bold.ttf);
+}
+@font-face {
+    font-family: Camille;
+    src: url(suplhut/SulphurPoint-Bold.ttf);
+}
