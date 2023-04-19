@@ -374,7 +374,7 @@ p {
 .small-p-1-b2 {
     font-family: "PT Sans Narrow";
     font-size: 30px;
-    background-image: url("images/Rectangle\ 14.png");
+    background-image: url("../images/Rectangle\ 14.png");
     background-repeat: no-repeat;
     background-position: left top;
     background-size: 100%;
@@ -443,7 +443,7 @@ p {
 .small-p-2-b2 {
     font-family: "PT Sans Narrow";
     font-size: 30px;
-    background-image: url("images/Rectangle\ 15.png");
+    background-image: url("../images/Rectangle\ 15.png");
     background-repeat: no-repeat;
     background-size: 80%;
     padding: 30px 30px 20px 30px;
