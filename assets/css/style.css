@@ -357,12 +357,18 @@ p {
 
 @font-face {
     font-family: Evelynn;
-    src: url(nawwor/PTSansNarrow-Bold.ttf);
+    src: url(../fonts/nawwor/PTSansNarrow-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: Evelynn;
+    src: url(../fonts/nawwor/PTSansNarrow-Bold.ttf);
+    font-weight: 700;
 }
 
 @font-face {
     font-family: Camille;
-    src: url(suplhut/SulphurPoint-Bold.ttf);
+    src: url(../fonts/suplhut/SulphurPoint-Bold.ttf);
 }
 
 
