@@ -4,6 +4,57 @@
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 600px) {
+    .nav-wrap {
+        position: fixed;
+        top: 0;
+        right: -200%;
+        z-index: 9999;
+        min-width: 100vw;
+        min-height: 100vh;
+        transition: all .3s ease-in-out;
+        backdrop-filter: blur(2px);
+    }
+
+    nav {
+        margin-left: auto;
+        min-height: 100vh;
+        max-width: 20rem;
+        background-color: white;
+        flex-direction: column;
+        box-shadow: 0 0 8px 4px rgba(0, 0, 0, .3);
+    }
+
+    .nav-toggler.open:focus~.nav-wrap {
+        right: 0;
+    }
+    
+    .m640px\:justify-center {
+        justify-content: center;
+    } 
+    .m640px\:items-center {
+        align-items: center;
+    }
+
+    .close {
+        position: fixed;
+        top: 2rem;
+        left: -4rem;
+        
+        transition: all .3s ease-in-out;
+        z-index: 99999999999;
+    }
+    .nav-toggler:focus~.close {
+        left: 2rem;
+        transition: all .4s .5s ease-in-out;
+    }
+    .nav-wrap:focus-within {
+        transform: translateX(0);
+    }
+    
+
+}
+
 .rectangle-size {
     width: 8%;
     margin-left: 80px;
@@ -171,9 +222,23 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
 }
+
+.relative {
+    position: relative;
+}
+
+@media screen and (max-width: 1440px) {
+    header {
+        max-width: 1024px;
+    }
+}
+
 
 nav {
     max-width: 1600px;
@@ -181,6 +246,20 @@ nav {
     flex-grow: .2;
     gap: 1.5rem;
 }
+
+.nav-toggler {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    padding: 1rem;
+    margin-right: -1rem;
+}
+
+nav {
+    outline: none;
+}
+
 
 main {
     display: flex;
@@ -362,6 +441,7 @@ p {
     src: url(../fonts/nawwor/PTSansNarrow-Regular.ttf);
     font-weight: 400;
 }
+
 @font-face {
     font-family: Evelynn;
     src: url(../fonts/nawwor/PTSansNarrow-Bold.ttf);
