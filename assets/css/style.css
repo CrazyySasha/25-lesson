@@ -737,4 +737,339 @@ p {
 /* 3 BLOCK  */
 
 
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500;800;900&family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  
+}
+body{
+  font-family:"PT Sans Narrow";
+  font-weight: 400;
+}
+.flex{
+display: flex;
+}
+body {
+  font-family: "PT Sans Narrow";
+}
+.flex-column {
+  flex-direction: column;
+}
+ul {
+  list-style-image: url(list-circle.svg);
+}
+/* ul[title]::before {
+  content:"Ребрендинг";
+  display: block;
+  font-weight: bold;
+  padding: 4px;
+} */
+.rebrand {
+font-size: 42px;
+line-height: 54px;
+color: #398495;
+text-align: left;
+
+}
+.text-left{
+  align-items: flex-start;
+
+}
+ul {
+  padding: 0;
+  margin: 20px;
+  /* kak eto srabotal? */
+
+}
+.block1 {
+  max-height: 505px;
+  padding-top: 23px;
+  padding-right: 150px;
+  padding-left: 150px;
+}
+.podblock1-1{
+ 
+}
+.pizdyuk{
+  max-height:445px ;
+}
+.just-between{
+  justify-content:space-between;
+}
+.width100{
+  width: 100%;
+}
+ul{
+font-size: 24px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: left;
+color: #393939;
+
+}
+.flex-row{
+  flex-direction: row;
+}
+.zakaz {
+  background: #398495;
+border-radius: 5px;
+height:41px;
+width: 186px;
+border: 0;
+clip-path: polygon(0 0, 82% 0, 96% 100%, 0% 100% );
+/* transform: matrix(1, 0, 0, -1, 0, 0); */
+}
+.Plus400{
+  color: white;
+  /* font-family: "Mplus 1p"; */
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.portfolio {
+  height: 41px;
+width: 186px;
+border: 2px solid #3BB372;
+border-radius: 5px;
+clip-path: polygon(4% 0, 100% 0, 100% 100%, 18% 100%);
+margin-left:-30px
+}
+/* .portfolio::after{
+  border-style: solid;
+border-width: 0 0 42px 16px;
+border-color: #3BB372;
+} */
+.plusNeplus{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.s42{
+  font-family: "PT Sans Narrow";
+font-size: 42px;
+font-weight: 400;
+line-height: 54px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+
+}
+.s20 {
+  font-family:"PT Sans Narrow" ;
+font-size: 20px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+padding-bottom: 25px;
+
+}
+.bg-blue{
+  background-color:#398495;
+  max-width:650px;
+
+  padding-left: 46px;
+  padding-right: 46px;
+  padding-top: 18px;
+  padding-bottom: 38px;
+  border-radius: 25px;
+}
+.bg-green{
+  background-color: #3BB372;
+  max-width:650px;
+
+  padding-left: 46px;
+  padding-right: 46px;
+  padding-top: 18px;
+  padding-bottom: 38px;
+  border-radius: 25px;
+}
+.blue-ord{
+  border-radius: 5px;
+height:41px;
+width: 186px;
+border: 0;
+clip-path: polygon(0 0, 82% 0, 96% 100%, 0% 100% );
+background-color:white;
+}
+.blue-text {
+  color:#398495;
+}
+.proroditel{
+  gap:50px;
+}
+.block2{
+
+padding-left: 60px;
+padding-right: 60px;
+gap:20px;
+padding-top: 15px;
+}
+/* .box-shade{
+  border: 1px solid;
+  border-color: white;
+  padding: 10px;
+  box-shadow: 5px 100px 18px red;
+} */
+
+.line{
+  position: absolute;
+  margin-top: -522px;
+  z-index: -1;
+  left:402px
+}
+.p-71{
+  padding-left: 110px;
+  position: relative;
+}
+.ourTeam{
+  position: absolute;
+  font-family:"PT Sans Narrow" ;
+font-size: 48px;
+font-weight: 400;
+line-height: 62px;
+letter-spacing: 0em;
+text-align: left;
+top:50px;
+left :152px
+
+}
+.ilyusha{
+  font-family:"PT Sans Narrow";
+font-size: 42px;
+font-weight: 400;
+line-height: 54px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.uxui{
+  font-family:"PT Sans Narrow";
+font-size: 32px;
+font-weight: 400;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+color: #398495;
+
+}
+.text{
+  font-family:"PT Sans Narrow";
+font-size: 28px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+color: #393939;
+}
+.p-308{
+  
+  padding-bottom: 58px;
+  justify-content:center;
+  align-items: center;
+ 
+}
+.gap-40px{
+  gap:40px
+}
+.voda{
+  position: absolute;
+  z-index: -1;
+  right:335px;
+  margin-top:-50px
+}
+.tipo-col{
+  flex-direction: column;
+  display: flex;
+}
+.tel {
+  position: relative;
+}
+.block2{
+  gap:20px
+}
+.p-top{
+  /* padding-top: 50px; */
+  max-width: 371px;
+  
+
+}
+@media (max-width:1519px) {
+  .proroditel {
+    max-width:1162px
+  }
+}
+@media only screen and (max-width: 1162px) {
+  .proroditel {
+font-size: smaller;
+  flex-wrap: wrap;
+  }
+  .block1{
+    gap:50px;
+  }
+ 
+  .s42{
+  font-size: smaller;
+ 
+  }
+  .s20{
+  font-size: smaller;
+ 
+  }
+  .tipo-col{
+    flex-direction: row;
+  }
+}
+@media only screen and (max-width: 890px) {
+  .block1 {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .block2 {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .block3 {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .proroditel{
+    transform: scale(1);
+    overflow-x:hidden;
+    
+  
+  }
+  .pizdyuk{
+    display: none;
+  }
+  .ourTeam{
+    display:none;
+  }
+  .bg-blue{
+    min-height:200px;
+  }
+  .bg-green{
+    min-height:200px;
+  }
+  .voda{
+    display: none;
+  }
+  .slonik{
+    display: none;
+  }
+ 
+}
+
+
 /* 3 block  */
