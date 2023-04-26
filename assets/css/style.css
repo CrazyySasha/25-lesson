@@ -1,7 +1,11 @@
 * {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+}
+.pt-64px {
+    padding-top: 64px;
 }
 .py-1rem {
     padding-left: 1rem;
@@ -10,8 +14,9 @@
 .gap-1rem{
     gap: 1rem;
 }
-.pt-64px {
-    padding-top: 64px;
+.py-64px {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 .px-1 {
     padding-left: 1rem;
@@ -23,8 +28,8 @@
 .wrap {
     flex-wrap: wrap;
 }
-.mt-64px {
-    margin-top: -64px;
+.mt-128px {
+    margin-top: -8rem;
 }
 .top-left {
  position: absolute;
@@ -51,6 +56,9 @@
 }
 .flex {
     display: flex;
+}
+.max-h-254 {
+    max-height: 254px;
 }
 .flex-col {
     flex-direction: column;
@@ -137,7 +145,6 @@ li::before {
 header {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 80px;
 }
 section {
     margin-left: auto;
@@ -166,6 +173,7 @@ section {
     letter-spacing: 0em;
 }
 .diz {
+    padding-bottom: 26px;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -204,21 +212,18 @@ ul li {
     padding-top: 18px;
 }
 .div1 {
+    padding: 18px 46px 18px 46px;
+    justify-content: flex-start;
     background: #398495;
     border-radius: 25px;
-    /* max-height: 254px; */
 }
 .mt-25 {
     margin-top: 25px;
 }
 .div2 {
+    padding: 18px 46px 18px 46px;
     border-radius: 25px;
     background: #3BB372;
-    /* max-height: 254px; */
-}
-.px-4230 {
-    padding-left: 30px;
-    padding-right: 42px;
 }
 .ilya {
     font-size: 42px;
